@@ -1,0 +1,257 @@
+/* Apply Oxanium to the entire body */
+body, h1, h2, h3, p, a, button {
+    font-family: 'Oxanium', sans-serif;
+}
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Oxanium', sans-serif;
+    color: #fff;
+    background: #000;
+    overflow-x: hidden;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Navbar */
+nav {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.nav-inner {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+nav a {
+    color: #b3b3d9;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #00FF99;
+}
+
+.logo h1 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+/* Hero Section */
+.hero {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #b3b3d9;
+}
+
+.btn {
+    padding: 15px 40px;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: #00FF99;
+    color: #000;
+    border: none;
+    border-radius: 30px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #00CC77;
+}
+
+/* About Section */
+.about-section {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.about-section p {
+    font-size: 1.2rem;
+    color: #b3b3d9;
+}
+
+/* Events Section */
+.events-section {
+    padding: 80px 20px;
+    background-color: #101026;
+}
+
+.events-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #fff;
+}
+
+.event-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #00FF99;
+}
+
+.card p {
+    font-size: 1.1rem;
+    color: #b3b3d9;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+
+/* Schedule Section */
+.schedule-section {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.schedule-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.schedule-list {
+    list-style: none;
+    font-size: 1.2rem;
+    color: #b3b3d9;
+}
+
+/* Sponsors Section */
+.sponsors-section {
+    padding: 80px 20px;
+    text-align: center;
+    background-color: #101026;
+}
+
+.sponsors-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.sponsors-section p {
+    font-size: 1.2rem;
+    color: #b3b3d9;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.contact-section p {
+    font-size: 1.2rem;
+    color: #b3b3d9;
+}
+
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact-section input, .contact-section textarea {
+    width: 80%;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.contact-section button {
+    padding: 15px 40px;
+    font-size: 1rem;
+    background-color: #00FF99;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    color: #000;
+    transition: background-color 0.3s ease;
+}
+
+.contact-section button:hover {
+    background-color: #00CC77;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #b3b3d9;
+    background-color: rgba(0, 0, 0, 0.9);
+}
